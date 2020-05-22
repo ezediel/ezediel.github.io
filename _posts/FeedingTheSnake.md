@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Feeding the Snake 🐍🐍🐍
-youtubeId: 3K19_1b27Vg
----
+title: Feeding the Snake 
 
-{% include youtubePlayer.html id=page.youtubeId %}
+---
+test
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
