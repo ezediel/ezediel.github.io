@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feeding the Snake 
-youtubeId: putYourIDHere
+youtubeId: lDi9uFcD7XI
 ---
 test
 
@@ -15,4 +15,4 @@ Example:     youtubeId: lDi9uFcD7XI
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+
