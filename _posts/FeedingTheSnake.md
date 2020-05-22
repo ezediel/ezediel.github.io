@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feeding the Snake 🐍🐍🐍
+youtubeId: 3K19_1b27Vg
 ---
 
-
-www.youtube.com
+{% include youtubePlayer.html id=page.youtubeId %}
