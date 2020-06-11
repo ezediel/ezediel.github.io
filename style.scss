@@ -230,7 +230,9 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $futura; font-weight: 600;
+  font-family: $futura; 
+  font-weight: 500;
+  font-style: normal;
   font-size: 18px;
 
   @include mobile {
