@@ -227,7 +227,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: "futura-pt-condensed", sans-serif; font-weight: 600;
+  font-family: $futura; font-weight: 600;
   font-size: 18px;
 
   @include mobile {
