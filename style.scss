@@ -17,10 +17,12 @@ html {
   font-size: 100%;
 }
 
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  filter: invert(100%);
 }
 
 .text-justify {
@@ -38,7 +40,7 @@ body {
 	position: absolute;
     left: 50%;
     width: 3.125rem;
-    margin-top: 1.75rem;
+    /*margin-top: 1.75rem; */ 
     transition: opacity 0.5s ease-in-out;
     -webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
@@ -122,6 +124,7 @@ strong, b {
 
 img {
   max-width: 100%;
+  filter: invert(100%);
 }
 
 // Fixes images in popup boxes from Google Translate
