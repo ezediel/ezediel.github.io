@@ -37,8 +37,8 @@ body {
 }
 
 .avatar-container {
-	/* position: absolute; */ 
-    /* left: 50%; */ 
+	position: absolute; 
+    left: 50%;  
     width: 3.125rem;
     margin-top: 1.75rem; 
     transition: opacity 0.5s ease-in-out;
