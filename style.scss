@@ -46,6 +46,8 @@ body {
     -moz-transition: opacity 0.5s ease-in-out;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -181,14 +183,14 @@ img {
 }
 
 .site-avatar {
-  float: left;
+  float: none;
   width: 70px;
   height: 70px;
-  margin-right: 15px;
+  /*margin-right: 15px;*/
 
   @include mobile {
     float: none;
-    display: block;
+    /*display: block;*/
     margin: 0 auto;
   }
 
@@ -214,7 +216,7 @@ img {
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
 }
 
 .site-description {
