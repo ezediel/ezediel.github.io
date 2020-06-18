@@ -362,6 +362,25 @@ footer {
 }
 
 
+.ctabutton {
+	display: block;
+	padding: 10px;
+	background: rgba(255,255,255,1);
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.2s linear all;
+	margin: 10px auto;
+	max-width: 500px;
+	width: 95%;
+	box-sizing: border-box;
+}
+
+.ctabutton:hover {
+	background: rgba(255,255,255,0.7);
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
