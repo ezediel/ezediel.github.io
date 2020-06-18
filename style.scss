@@ -239,42 +239,7 @@ img {
   }
 }
 
-nav {
 
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $futura;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-  text-align: center;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-  div {
-    display: inline-block;
-    display: -moz-inline-box;
-    *display: inline; /* For IE7 */
-    zoom: 1; /* Trigger hasLayout */
-    width: 19%;
-    text-align: center;
-  }
-  a {
-    margin-left: 20px;
-    color: $white;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $white;
-    }
-  }
-}
 
 //
 // .main

@@ -5,11 +5,17 @@ layout: default
 <div class="posts">
   {% for post in site.posts limit:1 %}
     <article class="post">
-
-      <img src="{{ site.baseurl }}/images/{{ post.image }}"  style="width: 400px;"/>
-	  <h1>{{ post.title }}</h1>
-	  <br>
-	  <a href="{{ post.hypeedit }}" target=”_blank”><div class="btn ctabutton">  Listen</div></a> 
+		<div class="btn ctabutton">
+			<img src="{{ site.baseurl }}/images/{{ post.image }}" />
+	    </div>
+		<p>
+			{{ post.title }}
+			<br>
+			OUT NOW
+		</p>
+		<div class="btn ctabutton">
+			<a href="{{ post.hypeedit }}" target=”_blank”>  Listen</a> 
+		</div>
 
       <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
     </article>
