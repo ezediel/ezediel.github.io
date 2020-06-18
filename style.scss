@@ -360,6 +360,11 @@ footer {
 	color: #fff;
 }
 
+ 
+
+
+
+
 #main-nav {
 	width: 100%;
 	text-align: center;
@@ -368,12 +373,23 @@ footer {
 	top: 0;
 	left: 0;
 	
-	font-family: $futura;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 18px;
-	text-align: center;
+	margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $futura;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
 }
+
+
+
 
 #main-nav ul {
 	list-style-type: none;
@@ -399,6 +415,29 @@ footer {
 	padding: .75em 1em;
 	margin: 0;
 	width: 10%;
+	
+    color: $white;
+    text-align: right;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $white;
+    }
+	
+	margin-top: 23px; // @TODO: Vertically middle align
+    font-family: $futura;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+ 
+    @include mobile {
+      float: none;
+      margin-top: 9px;
+      display: block;
+      font-size: 16px;
+  }
 }
 
 .logoitem {
