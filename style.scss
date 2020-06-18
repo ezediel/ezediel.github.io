@@ -172,7 +172,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .masthead {
@@ -442,7 +442,7 @@ footer {
 }
 
 .logoitem a {
-	display: block;
+	/*display: block;*/
 	/*text-indent: -10000px;*/
 	overflow: hidden;
 	/*background: url('img/fv-logo-170.png') no-repeat center;*/
@@ -498,7 +498,9 @@ footer {
 	#homelayout {
 		background: rgba(0,0,0,0.8);
 	}
-
+	.wrapper-masthead {
+	  margin-bottom: 50px;
+	}
 
 
 }
@@ -525,6 +527,320 @@ a:hover {
 	color: #fff;
 }
 
+
+#homelayout {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	z-index: 1;
+}
+
+#homesection {
+	width: 100%;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	opacity: 0;
+	transition: 0.2s linear all;
+}
+
+#homesection.loaded {
+	opacity: 1;
+}
+
+#home-content {
+	min-height: 90vh;
+	padding-top: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+}
+
+#signupiframewrapper {
+	max-width: 400px;
+	width: 100%;
+	margin: 10px auto;
+}
+
+#signupform {
+	max-width: 400px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+#signupform input {
+	display: block;
+	background: rgba(0,0,0,0.5);
+	color: #cccccc;
+	font-family: Source Code Pro;
+	padding: 10px;
+	font-size: 14pt;
+	margin-bottom: 8px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+#signupform input::placeholder {
+	color: #c0c0c0;
+}
+
+#signupform input.full {
+	width: 100%;
+	clear: both;
+}
+
+#signupform input.half {
+	width: 49%;
+	float: left;
+}
+
+#signupform input.left {
+	margin-right: 2%;
+}
+
+#signupform input.text:focus {
+    outline: none !important;
+    border:1px solid #990000;
+    box-shadow: 0 0 10px #990000;
+}
+
+#signupform input.button {
+	background: rgba(255,255,255,0.5);
+	color: #000;
+	cursor: pointer;
+	transition: 0.2s linear all;
+}
+
+#signupform input.button:hover {
+	background: rgba(255,255,255,0.8);
+}
+
+.selectbox select {
+   border: 0;
+   color: #cccccc;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 100%;
+   *width: 100%;
+   *background: #000000;
+   -webkit-appearance: none;
+   	font-family: Source Code Pro;
+	font-size: 14pt;
+}
+
+.selectbox select:focus {
+    outline: none !important;
+}
+
+.selectbox {
+	overflow:hidden;
+	width:100%;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background: rgba(0,0,0,0.5) url("img/dropdown.png") no-repeat scroll 95% center;
+	border: 1px solid #fff;
+	font-family: Source Code Pro;
+	font-size: 14pt;
+	margin-bottom: 8px;
+	border: 1px solid #cccccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#dobcontainer .selectbox, #dobcontainer .label {
+	width: 32.3%;
+	float: left;
+	display: block;
+	box-sizing: border-box;
+	margin-left: 1%;
+	padding-top: 10px;
+}
+
+
+#dobcontainer .selectbox {
+	margin-left: 1%;
+}
+
+#updatetext {
+	font-size: 10pt;
+}
+
+#bgoverlay {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 4;
+	min-height: 100vh;
+}
+
+#home-content h1 {
+	font-family: Abel;
+	margin: 10px auto;
+	padding: 0;
+	font-size: 96px;
+	color: #fff;
+	letter-spacing: 0.0729167em;
+	font-weight: 400;
+	display: block;
+	width: 100%;
+}
+
+#home-content h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+
+.background-video {
+  background-position: top center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.loaded .ytplayer-container {
+  display: block;
+}
+
+.loaded .placeholder-image {
+  opacity: 0;
+}
+
+.ytplayer-container {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.placeholder-image {
+  height: 100%;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.ytplayer-shield {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.ytplayer-player {
+  position: absolute;
+}
+
+.container {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, .9);
+  padding: 0 30px 0 30px;
+  margin: 30px auto;
+}
+
+#footer {
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	background: #ebebeb;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#privacyetc {
+	font-size: 8pt;
+	font-family: 'Helvetica','Arial',Sans-Serif;
+	color: #333333;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+
+#privacyetc ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+}
+
+#privacyetc li {
+	margin: 2px;
+	padding: 0;
+	display: inline-block;
+}
+
+#privacyetc a {
+	text-decoration: none;
+	color: #333333;
+}
+
+#privacyetc a:hover {
+	text-decoration: underline;
+}
+
+
+
+#cookie-banner {
+	height: auto !important;
+}
+
+#cookie-banner-inner {
+	width: 95% !important;
+	margin: 0 auto;
+	text-align: center !important;
+}
+
+#signupiframe {
+	text-align: center;
+	background: transparent !important;
+	margin: 0;
+	padding: 0;
+}
+
+#signupiframe #cookie-banner {
+	display: none;
+}
+
+#signupiframe #_evidon_banner {
+	display: none !important;
+}
+
+#signupiframe #_evh-button {
+	display: none !important;
+}
+
+#signupiframe .pace {
+	display: none !important;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
