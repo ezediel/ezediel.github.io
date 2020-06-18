@@ -21,7 +21,6 @@ html {
   font-size: 100%;
 }
 
-
 body {
   background: $black;
   font: 18px/1.4 $helvetica;
@@ -51,7 +50,9 @@ body {
     -moz-transition: opacity 0.5s ease-in-out;
 }
 
-
+.invert{
+	filter: invert(100%)
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $futura;
