@@ -548,7 +548,7 @@ a:hover {
 	display: block;
 	background: rgba(0,0,0,0.5);
 	color: #cccccc;
-	font-family: Source Code Pro;
+	font-family: $futura;
 	padding: 10px;
 	font-size: 14pt;
 	margin-bottom: 8px;
@@ -607,7 +607,7 @@ a:hover {
    *width: 100%;
    *background: #000000;
    -webkit-appearance: none;
-   	font-family: Source Code Pro;
+   	font-family: $futura;
 	font-size: 14pt;
 }
 
@@ -623,7 +623,7 @@ a:hover {
 	border-radius: 0px;
 	background: rgba(0,0,0,0.5) url("img/dropdown.png") no-repeat scroll 95% center;
 	border: 1px solid #fff;
-	font-family: Source Code Pro;
+	font-family: $futura;
 	font-size: 14pt;
 	margin-bottom: 8px;
 	border: 1px solid #cccccc;
@@ -658,8 +658,10 @@ a:hover {
 	min-height: 100vh;
 }
 
+
+
 #home-content h1 {
-	font-family: Abel;
+	font-family: $futura;
 	margin: 10px auto;
 	padding: 0;
 	font-size: 96px;
@@ -670,7 +672,9 @@ a:hover {
 	width: 100%;
 }
 
-#home-content h2 {
+#home-content h2 p {
+	font-family: $futura;
+	color: #ffffff
 	margin-top: 40px;
 	margin-bottom: 20px;
 	padding: 0;
