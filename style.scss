@@ -306,12 +306,6 @@ footer {
   height: 100%;
 }
 
-#listen a {
-	color: #000000;
-	font-family: $futura;
-	letter-spacing: 2px;
-}
-
 #socials ul {
 	list-style-type: none;
 	margin: 0;
@@ -332,21 +326,26 @@ footer {
 	color: #fff;
 }
 
- 
+#song {
+	font-family: $futura;
+    font-weight: 300;
+	color: #ffffff;
+	font-size: 25px;
+}
 
 #outNow {
 	font-family: $futura;
     font-weight: 300;
 	color: #ffffff;
-	
+	font-size: 20px;
 }
 
-#song {
+#listen a {
+	color: #000000;
 	font-family: $futura;
-    font-weight: 300;
-	color: #ffffff;
+	letter-spacing: 2px;
+	font-size: 18px;
 }
-
 
 #main-nav {
 	width: 100%;
