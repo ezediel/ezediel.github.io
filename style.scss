@@ -129,7 +129,7 @@ strong, b {
 
 img {
   max-width: 100%;
-  max-height: 80%;
+  max-height: 500px;
   /*filter: invert(100%);*/
 }
 
@@ -522,8 +522,8 @@ a:hover {
 }
 
 #home-content {
-	min-height: 90vh;
-	padding-top: 60px;
+	/*min-height: 90vh;*/
+	/*padding-top: 60px;*/
 	text-transform: uppercase;
 	text-align: center;
 	  align-items: center;
