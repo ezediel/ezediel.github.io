@@ -47,7 +47,7 @@
 #mc_embed_signup h1 {text-align: center;}
 mc-embedded-subscribe input {
 	color: #000000;
-	font-family: $futura;
+	font-family: "futura-pt-condensed", sans-serif;
 	letter-spacing: 2px;
 	font-size: 18px;
 }
