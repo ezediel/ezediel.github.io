@@ -10,7 +10,7 @@ permalink: /signup/
 <form action="https://ezediel.us10.list-manage.com/subscribe/post?u=5a497a9536195a0dd45206578&amp;id=fc7cabfa1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h1>Subscribe</h1>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<!--<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>-->
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
