@@ -7,7 +7,7 @@ permalink: /signup/
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#000; max-width:500px clear:left; font:14px Helvetica,Arial,sans-serif; max-width: 500px; margin-left: 30%; margin-right: 30%;}
+	
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
