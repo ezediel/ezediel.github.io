@@ -35,7 +35,8 @@ body {
 
 .bio {
 	margin: 10px auto;
-	text-align: justify;
+	text-align: center;
+	font-size: medium;
 }
 
 .container {
@@ -63,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+ 
   padding: 0;
 
   @include mobile {
@@ -72,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+   margin: 1em 0 15px;
   font-size: 30px;
   a {
     color: inherit;
@@ -79,7 +81,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+   margin: .5em 0 15px;
+  font-size: 35px;
 }
 
 h3 {
@@ -340,7 +343,7 @@ footer {
 	color: #fff;
 }
 
-#menu-social-menu2 ul li {
+#menu-social-menu2 li {
 	display: inline-block;
 	width: auto;
 	padding-left: 0px;
@@ -485,7 +488,7 @@ footer {
 
 	#home-content {
 		min-height: 60vh;
-		/*padding-top: 40px;*/
+		margin-top: 10px;
 	}
 
 	#main-nav ul {
@@ -584,6 +587,7 @@ a:hover {
 
 #home-content {
 	min-height: 55vh;
+	margin-top: 10px;
 	/*padding-top: 60px;*/
 	text-transform: uppercase;
 	text-align: center;
