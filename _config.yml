@@ -9,7 +9,7 @@ name: Ezediel
 description: Artist
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: src="/images/RWLOGO.png"
+avatar: "/images/RWLOGO.png"
 
 #
 # Flags below are optional
